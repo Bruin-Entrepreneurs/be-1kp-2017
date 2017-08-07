@@ -18,7 +18,7 @@ app.use('/public', express.static(path.join(__dirname, '/public')))
 app.set('views', __dirname + '/views')
 app.engine('html', require('ejs').renderFile)
 
-app.set('port', (process.env.PORT || 8000))
+app.set('port', (process.env.PORT || 8001))
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE, PUT");
