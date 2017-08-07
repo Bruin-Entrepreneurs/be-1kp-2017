@@ -1,11 +1,11 @@
 {
   "name": "bruinentrepreneurs",
   "version": "1.0.0",
-  "description": "Bruin Entrepreneurs Website",
-  "main": "server.js",
+  "description": "Bruin Entrepreneurs One Thousand Pitches",
+  "main": "1kp.js",
   "scripts": {
     "test": "npm test",
-    "start": "node server.js"
+    "start": "node 1kp.js"
   },
   "dependencies": {
     "aws-sdk": "latest",
