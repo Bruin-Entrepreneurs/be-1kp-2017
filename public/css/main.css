@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  margin: 0px; }
+
+body {
+  margin: 0 0 0 0;
+  font-family: Montserrat, Lato; }
+
+h1, h2, p {
+  color: #f5f1ed;
+  font-family: 'Montserrat', Helvetica;
+  margin: 0 0 0 0; }
+
+#be-blue {
+  color: #072956; }
+
+.landing {
+  height: 100vh;
+  background-image: url("../assets/images/main-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  display: -webkit-flex;
+  text-align: center; }
+  .landing .space {
+    flex: 1; }
+  .landing .center {
+    flex: 6;
+    margin: 32vh 0 0 10vw;
+    text-align: left; }
+    .landing .center span {
+      font-size: 22px; }
+    .landing .center img {
+      width: 500px;
+      height: auto; }
+
+.what {
+  height: 95vh;
+  text-align: center; }
+  .what a {
+    font-style: none; }
+  .what .gopitch {
+    height: 50px;
+    width: 200px;
+    background-color: #C4C4C4; }
+
+.how {
+  height: 95vh; }
+
+.sponsors {
+  height: 50vh;
+  background-color: #C4C4C4;
+  text-align: center; }
+  .sponsors h1 {
+    font-style: bold;
+    color: #072956; }
+
+/*# sourceMappingURL=main.css.map */

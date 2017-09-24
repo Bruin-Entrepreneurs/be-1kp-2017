@@ -1,0 +1,80 @@
+$font-stack: Montserrat, Lato;
+
+html, body {
+  width: 100%;
+  margin: 0px;
+}
+
+body {
+  // background-color: #072956;
+  margin: 0 0 0 0;
+  font-family: $font-stack;
+}
+
+h1, h2, p {
+  color: #f5f1ed;
+  font-family: 'Montserrat', Helvetica;
+  margin: 0 0 0 0;
+}
+
+#be-blue {
+	color: #072956;
+}
+
+.landing {
+	height: 100vh;
+	background-image: url("../assets/images/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  	display: -webkit-flex;
+  	text-align: center;
+
+  	.space {
+  		flex: 1;
+  	}
+
+  	.center {
+  		flex: 6;
+  		margin: 32vh 0 0 10vw;
+  		text-align: left;
+
+  		span {
+  			font-size: 22px;
+  		}
+  		img {
+  			width: 500px;
+  			height: auto;
+  		}
+  	}
+}
+
+.what {
+	height: 95vh;
+	text-align: center;
+
+	a {
+		font-style: none;
+	}
+	.gopitch {
+		height: 50px;
+		width: 200px;
+		background-color: #C4C4C4;
+	} 
+}
+
+.how {
+	height: 95vh;
+
+}
+
+.sponsors {
+	height: 50vh;
+	background-color: #C4C4C4;
+	text-align: center;
+
+	h1 {
+		font-style: bold;
+		color: #072956;
+	}
+}
